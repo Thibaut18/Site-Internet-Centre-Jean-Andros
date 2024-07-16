@@ -1,0 +1,16 @@
+.about-testimony-section {
+	display: flex;
+	flex-direction: column;
+	.about-testimony-section-h2 {
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		background-color: rgba(255, 255, 255, 0.9);
+		width: 20%;
+		height: 3rem;
+		border-top-left-radius: 3rem;
+		border-top-right-radius: 3rem;
+		border: solid 5px #14e67b;
+	}
+}

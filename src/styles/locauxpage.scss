@@ -1,0 +1,50 @@
+.locaux {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Centrage des éléments enfants */
+}
+
+.locaux-txt-h1 {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 3rem;
+	height: 600px;
+	width: 900px;
+	padding: 3rem;
+	box-shadow: 0 8px 16px rgba(5, 51, 3, 0.3);
+	margin-bottom: 2rem;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.locaux-h1 {
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 2rem;
+	color: #5c2914;
+}
+
+.locaux-h1::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -4px;
+	width: 90%;
+	transform: translateX(-50%);
+	border-bottom: solid 4px #14e67b;
+	border-radius: 4px;
+}
+
+.locaux-ul {
+	column-count: 2; /* Divise la liste en deux colonnes */
+	column-gap: 2rem; /* Espacement entre les colonnes */
+	padding-left: 0;
+	list-style-type: none; /* Supprime les puces des listes */
+}
+
+.locaux-txt {
+	width: 500px;
+	text-align: justify;
+	margin: 0 auto; /* Centrage horizontal */
+}

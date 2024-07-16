@@ -1,0 +1,27 @@
+.contact-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	.googlemap-div {
+		position: relative;
+		transition: transform 0.3s ease-in-out;
+		&:hover {
+			transform: scale(1.4);
+		}
+		.googlemap-img {
+			border-radius: 8px;
+			margin: auto;
+			box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+			width: 600px;
+			height: 170px;
+			transition: transform 0.3s ease-in-out;
+		}
+		.link-txt {
+			position: absolute;
+			bottom: 15px;
+			left: 15px;
+			text-decoration: none;
+			color: black;
+		}
+	}
+}
